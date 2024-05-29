@@ -1,0 +1,205 @@
+/* src/app/components/Navbar.module.css */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  padding: 10px 20px;
+  flex-wrap: nowrap;
+}
+
+.logo img {
+  height: 40px;
+  border-radius: 50%;
+}
+
+.search {
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.search input {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+
+.navLinks li {
+  margin: 0 15px;
+}
+
+.navLinks a {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 8px 12px;
+  transition: 0.3s;
+}
+
+.navLinks a:hover {
+  color: white;
+}
+
+.buttons {
+  display: flex;
+}
+
+.buttons button {
+  margin-left: 10px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(to right, yellow, orange);
+}
+
+.login {
+  background: linear-gradient(to right, yellow, orange);
+}
+
+.login:hover {
+  color:blue;
+}
+
+.signup {
+  background: linear-gradient(to right, yellow, orange);
+}
+
+
+/* Making Navbar responsive to devices*/
+/* Making Navbar responsive to Laptops and larger screens */
+@media (max-width: 1200px) {
+  .navbar {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .search {
+    flex-grow: 1;
+    margin: 0 10px;
+  }
+
+  .buttons {
+    flex-wrap: nowrap; /* Ensure buttons stay on one line */
+  }
+
+  .buttons button {
+    margin-left: 5px;
+  }
+}
+
+/* Making Navbar responsive on Medium size Tablet and Laptops */
+
+@media (max-width: 920px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .search {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .navLinks {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .navLinks li {
+    margin: 10px 0;
+  }
+
+  .buttons {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .buttons button {
+    margin: 10px 0;
+    width: 100%;
+  }
+}
+
+/* Making Navbar responsive to smaller Tablet devices */
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .search {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .navLinks {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .navLinks li {
+    margin: 10px 0;
+  }
+
+  .buttons {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .buttons button {
+    margin: 10px 0;
+    width: 100%;
+  }
+}
+
+/* Making navbar responsive to Mobile devices */
+@media (max-width: 480px) {
+  .logo img {
+    height: 30px;
+  }
+
+  .search input {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .navLinks a {
+    font-size: 16px;
+    padding: 6px 10px;
+  }
+
+  .buttons button {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+}
