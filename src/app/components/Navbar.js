@@ -2,6 +2,15 @@ import Link from 'next/link';
 import styles from './Navbar.module.css'
 
 export default function Navbar() {
+
+  const navLinks = [
+    { href: '/politics', label: 'Politics' },
+    { href: '/business', label: 'Business' },
+    { href: '/sports', label: 'Sports' },
+    { href: '/world', label: 'World' },
+    { href: '/podcast', label: 'Podcast' },
+  ];
+
   return (
     <nav className={styles.navbar}>
       <div className={styles.logo}>
@@ -11,21 +20,11 @@ export default function Navbar() {
         <input type="text" placeholder='Search...' />
       </div>
       <ul className={styles.navLinks}>
-        <li>
-          <Link href="/politics">Politics</Link>
-        </li>
-        <li>
-          <Link href="/business">Business</Link>
-        </li>
-        <li>
-          <Link href="/sports">Sports</Link>
-        </li>
-        <li>
-          <Link href="/world">World</Link>
-        </li>
-        <li>
-          <Link href="/podcast">Podcast</Link>
-        </li>
+        {navLinks.map(link =>
+          <li key={link.href}>
+            <Link href={link.href}>{link.label}</Link>
+          </li>
+        )}
       </ul>
       <div className={styles.buttons}>
         <button className={styles.login}>Login</button>
