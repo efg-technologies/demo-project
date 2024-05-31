@@ -28,7 +28,7 @@ export default function Navbar() {
       </ul>
       <div className={styles.buttons}>
         <button className={styles.login}>Login</button>
-        <button className={styles.login}>Sign Up</button>
+        <button className={styles.signup}>Sign Up</button>
       </div>
     </nav>
   );
