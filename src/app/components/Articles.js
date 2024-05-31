@@ -1,6 +1,6 @@
 import styles from './Articles.module.css'
 
-// Hardcoded articles for demo project
+// Hardcoded articles data for demo project
 const articleInfo = [
   {
     id: 1,
@@ -68,14 +68,14 @@ export default function Articles() {
         </div>
         {/* Articles and sidebar */}
         <div className={styles.articlesAndSidebar}>
-          <div className={styles.sidebar}>
+          <div className={styles.articlesBackground}>
             <div className={styles.articlesGrid}>
               {articleInfo.map((article) =>
                 <div key={article.id}>
                   <img src={article.img} alt={article.title} />
-                  <h3>{article.title}</h3>
-                  <p>{article.description}</p>
-                  <p>{article.author}</p>
+                  <h3 className={styles.articlesTitle}>{article.title}</h3>
+                  <p className={styles.articlesDescription}>{article.description}</p>
+                  <p className={styles.articlesAuthor}>{article.author}</p>
                   <div className={styles.actions}>
                     <span>❤️ {article.likes}</span>
                     <span>🔗 {article.forward}</span>
