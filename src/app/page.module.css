@@ -3,4 +3,16 @@
   background-color: #2c2828;
 }
 
+.content {
+  display: flex;
+  align-items: stretch;
+}
 
+.articles {
+  flex: 4;
+}
+
+.livestories {
+  flex: 1;
+  padding-left: 20px;
+}

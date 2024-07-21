@@ -68,23 +68,23 @@ export default function Articles() {
         </div>
         {/* Articles and sidebar */}
         <div className={styles.articlesAndSidebar}>
-          <div className={styles.articlesBackground}>
-            <div className={styles.articlesGrid}>
-              {articleInfo.map((article) =>
-                <div key={article.id}>
-                  <img src={article.img} alt={article.title} />
-                  <h3 className={styles.articlesTitle}>{article.title}</h3>
-                  <p className={styles.articlesDescription}>{article.description}</p>
-                  <p className={styles.articlesAuthor}>{article.author}</p>
-                  <div className={styles.actions}>
-                    <span>❤️ {article.likes}</span>
-                    <span>🔗 {article.forward}</span>
-                    <span>🔖 {article.saves}</span>
+            <div className={styles.articlesBackground}>
+              <div className={styles.articlesGrid}>
+                {articleInfo.map((article) =>
+                  <div key={article.id}>
+                    <img src={article.img} alt={article.title} />
+                    <h3 className={styles.articlesTitle}>{article.title}</h3>
+                    <p className={styles.articlesDescription}>{article.description}</p>
+                    <p className={styles.articlesAuthor}>{article.author}</p>
+                    <div className={styles.actions}>
+                      <span>❤️ {article.likes}</span>
+                      <span>🔗 {article.forward}</span>
+                      <span>🔖 {article.saves}</span>
+                    </div>
                   </div>
-                </div>
-              )}
+                )}
+              </div>
             </div>
-          </div>
         </div>
       </div>
     </div>
