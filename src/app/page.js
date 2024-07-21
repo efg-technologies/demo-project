@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Navbar from "./components/Navbar";
 import Articles from "./components/Articles";
+import Livestories from "./components/Livestories";
 
 export default function Home() {
   return (
@@ -9,8 +10,9 @@ export default function Home() {
       <div>
         <Navbar/>
       </div>
-      <div>
+      <div className={styles.content}>
         <Articles/>
+        <Livestories/>
       </div>
     </main>
   );

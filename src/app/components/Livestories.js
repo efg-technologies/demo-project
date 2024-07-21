@@ -17,31 +17,36 @@ const liveStories = [
 
 export default function Livestories() {
   return (
-    <div className={styles.LivestoriesSection}>
+    <div className={styles.livestoriesSection}>
       {/* Live stories active link */}
-      <div className={styles.LivestoriesTab}>
-        <ul className={styles.LivestoriesLink}>
+      <div className={styles.livestoriesTab}>
+        <ul className={styles.livestoriesLink}>
           <li>
-            <button className={styles.LivesortActiveTab}>Live Stories</button>
+            <button className={styles.livesortActiveTab}>Live Stories</button>
           </li>
         </ul>
       </div>
         {/* Live stories  */}
-      <div className={styles.Livestories}>
+      <div className={styles.livestoriesContent}>
         {/* Array of Live stories */}
-        {liveStories.map((stories) =>
-                  <div key={stories.id}>
-                    <img src={stories.img} alt={stories.title} />
-                    <h3 className={styles.LivestoriesTitle}>{stories.title}</h3>
-                  </div>
-                )}
+        {liveStories.map((story) => (
+          <div key={story.id} className={styles.storyContainer}>
+            <div className={styles.liveIndicator}>
+              <span className={styles.redDot}></span>
+              <span className={styles.liveText}>Live</span>
+            </div>
+            <img src={story.img} alt={story.title} className={styles.storyImage} />
+            <h3 className={styles.LivestoriesTitle}>{story.title}</h3>
+          </div>
+        ))}
       </div>
       {/* Location news */}
-      <div className={styles.LocalnewsSection}>
-        <div className={styles.LocalnewsInfo}>
+      <div className={styles.localnewsSection}>
+        <h4>Location News</h4>
+        <div className={styles.localnewsInfo}>
           <p>Get Location specific News</p>
-          <input className={styles.LivestoriesInput}>Enter Your location</input>
-          <button className={styles.LivestoriesSubmit}>SUBMIT</button>
+          <input className={styles.livestoriesInput} placeholder="Enter Your location" />
+          <button className={styles.livestoriesSubmit}>SUBMIT</button>
         </div>
       </div>
     </div>
