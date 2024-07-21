@@ -80,6 +80,9 @@
   background: linear-gradient(to right, yellow, orange);
 }
 
+.signup:hover {
+  color:blue;
+}
 
 /* Making Navbar responsive to devices*/
 /* Making Navbar responsive to Laptops and larger screens */

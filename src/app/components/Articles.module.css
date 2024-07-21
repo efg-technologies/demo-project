@@ -1,0 +1,113 @@
+.articlesSection {
+  padding: 20px;
+}
+
+.articlesSort {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+  width: 60%;
+}
+
+.sortTab {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.sortLinks {
+  background-color: #979797;
+  border-radius: 5px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.sortLinks li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.sortLinks button {
+  padding: 10px 15px;
+  background: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+}
+
+/* Red line which is active under text if selected */
+.activeTab {
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-thickness: 5px;
+}
+
+.articlesAndSidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-right: 50px;
+  background: #979797;
+  border-radius: 5px;
+}
+
+.articlesBackground {
+  width: 100%;
+  padding: 20px;
+  background: #979797;
+  margin-right: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Articles grid layout */
+.articlesGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  flex: 1;
+  height: 100%;
+  border-radius: 5px;
+}
+
+/* Adjustments for article items */
+.articlesGrid div {
+  background: #f7f4f4;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.articlesTitle {
+  margin-top: 8px;
+}
+
+.articlesDescription {
+  margin-top: 8px;
+}
+
+.articlesAuthor {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.articlesGrid img {
+  height: 200px;
+  width: 100%;
+}
+
+/* Articles action buttons */
+.actions {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
