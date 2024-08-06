@@ -27,10 +27,9 @@ const editorsInfo = [
 export default function Editors() {
   return (
     <div className={styles.editorsSection}>
-      <div className={styles.editorsTitle}>
+      <div className={styles.editorsMainTitle}>
         <h3>Editors picks</h3>
       </div>
-      <div className={styles.editorsBackground}>
         <div className={styles.editorsGrid}>
           {editorsInfo.map((editor) =>
           <div key={editor.id}>
@@ -40,7 +39,6 @@ export default function Editors() {
           </div>
           )}
         </div>
-      </div>
     </div>
   );
 }
