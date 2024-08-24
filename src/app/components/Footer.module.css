@@ -2,22 +2,18 @@
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background-color: #000; 
+  background-color: #000;
   color: #fff;
 }
 
 .leftSection {
   flex: 1;
+  margin-left: 20px;
 }
 
 .leftSection img {
-  height: 300px;
-  width: 300px;
-}
-
-.middleDivide {
-  display: flex;
-  justify-content: space-between;
+  height: 250px;
+  width: 250px;
 }
 
 .middleSection {
@@ -49,20 +45,31 @@
   justify-content: center;
   gap: 10px;
   background-color: #fff;
+  border-radius: 8px;
 }
 
 .middleSection p {
   margin-top: 20px;
   font-size: 0.8em;
+  text-align: center;
 }
 
 .rightSection {
   flex: 1;
-  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .subscription {
-  margin-top: 10px;
+  background-color: #161829;
+  padding: 20px;
+  text-align: left;
+  color: #D0DAF5;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
 }
 
 .subscription input {
@@ -71,13 +78,17 @@
   border-radius: 5px;
 }
 
+.subscription h4 {
+ padding-bottom: 10px;
+}
+
 .subscription button {
   background-color: #ff6600;
-  color: #fff;
   border: none;
   padding: 5px 10px;
   margin-left: 5px;
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .subscription p {
