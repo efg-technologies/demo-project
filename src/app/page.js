@@ -19,9 +19,7 @@ export default function Home() {
       <div>
         <Editors/>
       </div>
-      <div>
         <Footer/>
-      </div>
     </main>
   );
 }
