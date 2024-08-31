@@ -3,7 +3,7 @@ import styles from './Footer.module.css'
 
 export default function Footer() {
   return (
-    <div className={styles.footerSection}>
+    <footer className={styles.footerSection}>
       {/* Left Section */}
       <div className={styles.leftSection}>
         <img src="./images/NewsNestor.png" alt="NewsNestor Logo" />
@@ -41,6 +41,6 @@ export default function Footer() {
           <p>Hello, we are NewsNestor. trying to make an effort to put the right people for you to get the best results. Just insight</p>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }
