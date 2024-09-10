@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Articles from "./components/Articles";
 import Livestories from "./components/Livestories";
 import Editors from "./components/Editors";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <div>
         <Editors/>
       </div>
+        <Footer/>
     </main>
   );
 }
