@@ -10,7 +10,7 @@ export default function Politics() {
       </div>
       <section className={styles.content}>
         <h1>Politics</h1>
-        <p>This is the Politics show page.</p>
+        <p>This is the Politics show page</p>
       </section>
       <div>
         <Footer />
