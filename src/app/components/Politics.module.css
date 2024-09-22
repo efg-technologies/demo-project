@@ -1,0 +1,31 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+.politicsGrid {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.textSection {
+  flex: 1;
+  margin-left: 60px;
+}
+
+.textSection p {
+  margin-top: 20px;
+}
+
+.imageSection img {
+  max-width: 400px;
+  height: auto;
+  margin-top: 63px;
+  border-radius: 8px;
+  margin-right: 60px;
+}
