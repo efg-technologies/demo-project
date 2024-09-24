@@ -14,7 +14,7 @@
 }
 
 .livesortActiveTab {
-  background: #979797;
+  background: #F0F0F0;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -39,7 +39,7 @@
   border: 1px solid #ddd;
   border-radius: 5px;
   overflow: hidden;
-  background-color: #f9f9f9;
+  background-color: #F0F0F0;
 }
 
 .liveIndicator {
@@ -89,7 +89,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: beige;
+  background-color: #F0F0F0;
   border-radius: 5px;
   margin-top: 2px;
   padding-top: 3px;
