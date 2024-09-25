@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: black;
+  background-color: #343a40;
   padding: 10px 20px;
   flex-wrap: nowrap;
 }
@@ -41,7 +41,7 @@
 }
 
 .navLinks a {
-  color: red;
+  color: white;
   text-decoration: none;
   font-weight: bold;
   font-size: 18px;
@@ -65,11 +65,11 @@
   cursor: pointer;
   color: white;
   font-weight: bold;
-  background: linear-gradient(to right, yellow, orange);
 }
 
 .login {
-  background: linear-gradient(to right, yellow, orange);
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 .login:hover {
