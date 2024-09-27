@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background-color: #212529;
-  color: #fff;
+  background-color: #1D1D24;
+  color: #FFFFFF;
 }
 
 .leftSection {
@@ -14,6 +14,7 @@
 .leftSection img {
   height: 250px;
   width: 250px;
+  border-radius: 5px;
 }
 
 .middleSection {
@@ -35,8 +36,12 @@
 }
 
 .middleSection ul li a {
-  color: #fff;
+  color: #FFFFFF;
   text-decoration: none;
+}
+
+.middleSection ul li a:hover {
+  color: #F2B950;
 }
 
 .middleSection .socialMedia {
@@ -44,8 +49,8 @@
   display: flex;
   justify-content: center;
   gap: 10px;
-  background-color: #fff;
-  border-radius: 8px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
 }
 
 .middleSection p {
@@ -62,7 +67,7 @@
 }
 
 .subscription {
-  background-color: #161829;
+  background-color: #2A2E35;
   padding: 20px;
   text-align: left;
   color: #D0DAF5;
@@ -71,6 +76,7 @@
   box-sizing: border-box;
   border-radius: 5px;
   margin-bottom: 50px;
+  border: 1px solid #F2B950;
 }
 
 .subscription input {
@@ -84,7 +90,7 @@
 }
 
 .subscription button {
-  background-color: #ff6600;
+  background-color: #F2B950;
   border: none;
   padding: 5px 10px;
   margin-left: 5px;
