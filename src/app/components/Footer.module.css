@@ -4,6 +4,9 @@
   padding: 20px;
   background-color: #1D1D24;
   color: #FFFFFF;
+  border-top: 1px solid #F2B950;
+  margin-top: 20px;
+
 }
 
 .leftSection {
@@ -15,6 +18,7 @@
   height: 250px;
   width: 250px;
   border-radius: 5px;
+  border: 2px solid #F2B950;
 }
 
 .middleSection {
@@ -70,7 +74,7 @@
   background-color: #2A2E35;
   padding: 20px;
   text-align: left;
-  color: #D0DAF5;
+  color: #FFFFFF;
   width: 100%;
   max-width: 400px;
   box-sizing: border-box;
@@ -90,7 +94,7 @@
 }
 
 .subscription button {
-  background-color: #F2B950;
+  background-color: #4A90E2;
   border: none;
   padding: 5px 10px;
   margin-left: 5px;
