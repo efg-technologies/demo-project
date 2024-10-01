@@ -82,7 +82,7 @@
 }
 
 .localnewsSection h4 {
-  color: red;
+  color: #F5F5F5;
 }
 
 .localnewsInfo {
@@ -111,4 +111,8 @@
   border-radius: 5px;
   cursor: pointer;
   margin-bottom: 3px;
+}
+
+.livestoriesSubmit:hover {
+  background-color: #CCCCCC;
 }

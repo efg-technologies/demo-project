@@ -5,6 +5,7 @@
   max-width: 81.25rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
+  margin-bottom: 20px;
 }
 
 .editorsMainTitle {
@@ -50,4 +51,9 @@
   border-radius: 5px;
   border: 1px solid #4A90E2;
   transition: background-color 0.3s ease;
+}
+
+.viewMoreButton:hover {
+  color: #CCCCCC;
+  border: 1px solid #CCCCCC;
 }

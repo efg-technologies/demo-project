@@ -3,6 +3,14 @@
   flex-direction: column;
   min-height: 100vh;
   justify-content: space-between;
+  background-color: #1D1D24;
+}
+
+.politicsSection {
+  background-color: #1D1D24;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .politicsGrid {
@@ -15,17 +23,25 @@
 
 .textSection {
   flex: 1;
-  margin-left: 60px;
+  color: #F0F0F0;
+  padding: 20px;
+}
+
+.textSection h1 {
+  font-size: 1.75rem;
+  text-decoration: underline;
 }
 
 .textSection p {
   margin-top: 20px;
+  line-height: 1.6;
 }
 
 .imageSection img {
   max-width: 400px;
   height: auto;
-  margin-top: 63px;
+  margin-top: 30px;
   border-radius: 8px;
-  margin-right: 60px;
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
