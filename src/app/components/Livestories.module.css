@@ -14,7 +14,7 @@
 }
 
 .livesortActiveTab {
-  background: #979797;
+  background: #F0F0F0;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -39,7 +39,7 @@
   border: 1px solid #ddd;
   border-radius: 5px;
   overflow: hidden;
-  background-color: #f9f9f9;
+  background-color: #F0F0F0;
 }
 
 .liveIndicator {
@@ -82,14 +82,14 @@
 }
 
 .localnewsSection h4 {
-  color: red;
+  color: #F5F5F5;
 }
 
 .localnewsInfo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: beige;
+  background-color: #F0F0F0;
   border-radius: 5px;
   margin-top: 2px;
   padding-top: 3px;
@@ -105,10 +105,14 @@
 
 .livestoriesSubmit {
   padding: 10px 20px;
-  background-color: red;
-  color: white;
+  background-color: #4A90E2;
+  color: #FFFFFF;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   margin-bottom: 3px;
+}
+
+.livestoriesSubmit:hover {
+  background-color: #CCCCCC;
 }

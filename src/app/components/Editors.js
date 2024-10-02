@@ -33,9 +33,9 @@ export default function Editors() {
         <div className={styles.editorsGrid}>
           {editorsInfo.map((editor) =>
           <div key={editor.id}>
-             <img src={editor.img} alt={editor.title}/>
-             <h3 className={styles.editorsTitle}>{editor.title}</h3>
-             <a href={editor.viewMoreLink} className={styles.viewMoreButton}>View More</a>
+            <img src={editor.img} alt={editor.title}/>
+            <h3 className={styles.editorsTitle}>{editor.title}</h3>
+            <a href={editor.viewMoreLink} className={styles.viewMoreButton}>View More</a>
           </div>
           )}
         </div>

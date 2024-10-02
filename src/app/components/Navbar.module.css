@@ -2,14 +2,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: black;
+  background-color: #1D1D24;
   padding: 10px 20px;
   flex-wrap: nowrap;
+  border-bottom: 1px solid #F2B950;
 }
 
 .logo img {
   height: 40px;
   border-radius: 50%;
+  border: 2px solid #F2B950;
 }
 
 .search {
@@ -23,7 +25,7 @@
   padding: 12px;
   font-size: 16px;
   border-radius: 20px;
-  border: none;
+  border: 2px solid #F2B950;
   outline: none;
 }
 
@@ -41,7 +43,7 @@
 }
 
 .navLinks a {
-  color: red;
+  color: #FFFFFF;
   text-decoration: none;
   font-weight: bold;
   font-size: 18px;
@@ -50,7 +52,7 @@
 }
 
 .navLinks a:hover {
-  color: white;
+  color: #F2B950;
 }
 
 .buttons {
@@ -63,25 +65,24 @@
   border: none;
   border-radius: 20px;
   cursor: pointer;
-  color: white;
+  color: #FFFFFF;
   font-weight: bold;
-  background: linear-gradient(to right, yellow, orange);
 }
 
 .login {
-  background: linear-gradient(to right, yellow, orange);
+  background: linear-gradient(to right, #FEA74D, #F26253);
 }
 
 .login:hover {
-  color:blue;
+  background: linear-gradient(to left, #FEA74D, #F26253);
 }
 
 .signup {
-  background: linear-gradient(to right, yellow, orange);
+  background: linear-gradient(to right, #FEA74D, #F26253);
 }
 
 .signup:hover {
-  color:blue;
+  background: linear-gradient(to left, #FEA74D, #F26253);
 }
 
 /* Making Navbar responsive to devices*/

@@ -21,9 +21,6 @@ export default function Politics() {
             <p>
               Climate change, too, has become a central issue in political debates worldwide. As the scientific consensus around the causes and effects of global warming becomes increasingly clear, governments are under growing pressure to take meaningful action. However, the path to meaningful climate policy remains fraught with political obstacles, as leaders must navigate the competing interests of industry, environmental groups, and voters. Some governments have embraced bold initiatives, such as transitioning to renewable energy and implementing carbon taxes, while others remain hesitant, fearing the economic repercussions of such drastic changes.
             </p>
-              <p>
-                In addition to these global challenges, domestic issues such as healthcare, education, and immigration continue to shape political agendas. The debate over healthcare reform, for instance, has been a contentious issue in many countries, with leaders divided over the best way to provide affordable and accessible healthcare to their citizens. Education policy, too, has come under scrutiny, as governments seek to prepare their populations for the demands of a rapidly evolving job market. Immigration remains a polarizing issue, with some advocating for more open borders and inclusive policies, while others push for stricter controls to protect national interests.
-              </p>
           </div>
           <div className={styles.imageSection}>
             <img src="./images/EFGtechnologies.png" alt="EFG Technologies" />

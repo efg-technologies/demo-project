@@ -5,6 +5,7 @@
   max-width: 81.25rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
+  margin-bottom: 20px;
 }
 
 .editorsMainTitle {
@@ -44,10 +45,15 @@
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px 20px;
-  background-color: whitesmoke;
-  color: #ee0707;
+  background-color: #F5F5F5;
+  color: #4A90E2;
   text-decoration: none;
-  border-radius: 5px solid red 2px;
-  border: 1px solid red;
+  border-radius: 5px;
+  border: 1px solid #4A90E2;
   transition: background-color 0.3s ease;
+}
+
+.viewMoreButton:hover {
+  color: #CCCCCC;
+  border: 1px solid #CCCCCC;
 }
