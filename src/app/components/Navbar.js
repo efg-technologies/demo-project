@@ -12,11 +12,14 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className={styles.navbar}>
+    <nav className="flex items-center justify-between bg-gray-900 p-4 border-b border-yellow-500">
+      {/*  <nav className={styles.navbar}> */}
       <div className={styles.logo}>
+        {/* <div className={styles.logo}> */}
         <img src ="/images/navbar_logo.png" alt="Navbar_logo"/>
       </div>
       <div className={styles.search}>
+        {/* <div className={styles.search}> */}
         <input type="text" placeholder='Search...' />
       </div>
       <ul className={styles.navLinks}>
