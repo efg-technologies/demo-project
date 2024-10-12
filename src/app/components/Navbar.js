@@ -12,7 +12,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="flex items-center justify-between bg-gray-900 p-4 border-b border-yellow-500">
+    <nav className={styles.navbar}>
       {/*  <nav className={styles.navbar}> */}
       <div className={styles.logo}>
         {/* <div className={styles.logo}> */}
@@ -23,6 +23,7 @@ export default function Navbar() {
         <input type="text" placeholder='Search...' />
       </div>
       <ul className={styles.navLinks}>
+        {/* <ul className={styles.navLinks}> */}
         {navLinks.map(link =>
           <li key={link.href}>
             <Link href={link.href}>{link.label}</Link>
@@ -30,8 +31,11 @@ export default function Navbar() {
         )}
       </ul>
       <div className={styles.buttons}>
+        {/* <div className={styles.buttons}> */}
         <button className={styles.login}>Login</button>
+        {/* <button className={styles.login}>Login</button> */}
         <button className={styles.signup}>Sign Up</button>
+        {/* <button className={styles.signup}>Sign Up</button> */}
       </div>
     </nav>
   );

@@ -1,4 +1,4 @@
-/* .navbar {
+.navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -85,31 +85,31 @@
   background: linear-gradient(to left, #FEA74D, #F26253);
 }
 
-/* Making Navbar responsive to devices*/
+/* Making Navbar responsive to devices
 /* Making Navbar responsive to Laptops and larger screens */
-/* @media (max-width: 1200px) {
+@media (max-width: 1200px) {
   .navbar {
     flex-direction: row;
     align-items: center;
   }
 
-  .search { */
-    /* flex-grow: 1;
+  .search {
+    flex-grow: 1;
     margin: 0 10px;
-  } */
+  }
 
-  /* .buttons {
+ .buttons {
     flex-wrap: nowrap;
   }
 
   .buttons button {
     margin-left: 5px;
-  } */
-
+  }
+}
 
 /* Making Navbar responsive on Medium size Tablet and Laptops */
 
-/* @media (max-width: 920px) {
+@media (max-width: 920px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
@@ -144,11 +144,11 @@
     margin: 10px 0;
     width: 100%;
   }
-} */
+}
 
 /* Making Navbar responsive to smaller Tablet devices */
 
-/* @media (max-width: 768px) {
+ @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
@@ -183,10 +183,10 @@
     margin: 10px 0;
     width: 100%;
   }
-} */
+}
 
 /* Making navbar responsive to Mobile devices */
-/* @media (max-width: 480px) {
+ @media (max-width: 480px) {
   .logo img {
     height: 30px;
   }
@@ -205,4 +205,4 @@
     font-size: 14px;
     padding: 6px 10px;
   }
-}  */
+}
