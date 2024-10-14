@@ -57,6 +57,7 @@
   margin-right: 50px;
   background: #F0F0F0;
   border-radius: 5px;
+  position: relative;
 }
 
 .articlesBackground {
@@ -100,9 +101,10 @@
   text-align: center;
 }
 
-.articlesGrid img {
+.articleImage {
   height: 200px;
   width: 100%;
+  object-fit: cover;
 }
 
 /* Articles action buttons */
